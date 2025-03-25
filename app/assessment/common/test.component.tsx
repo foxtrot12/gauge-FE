@@ -1,3 +1,4 @@
+"use-client"
 import { memo } from "react";
 import QuestionComponent from "./question/question.component";
 import AnswerComponent from "./answer/answer.component";

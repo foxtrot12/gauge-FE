@@ -1,3 +1,5 @@
+"use-client"
+
 import { memo } from "react";
 import McqComponent from "./mcq.component";
 
@@ -8,7 +10,7 @@ export interface AnswerProps {
 }
 function AnswerComponent(props: AnswerProps) {
   return (
-    <div className="flex">
+    <div className="flex w-full p-4">
       {(() => {
         switch (props.answerType) {
           case "SingleSelectMCQ":
